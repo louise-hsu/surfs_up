@@ -17,6 +17,7 @@ This module has taught me the following:
 4. Design a Flask application using data
 
 ## Documents
+
 - .gitignore 
 - readme.md - information
 - app.py - Flask/routes
@@ -28,6 +29,7 @@ This module has taught me the following:
 ***Please note: all this information/code can be found in climate_analysis.ipynb
 
 - The data precipitation from the last 12 months dates were found with the describe ():
+
       - count 2021
       - mean 0.18
       - std  0.48
@@ -36,16 +38,23 @@ This module has taught me the following:
       - 50%  0.02
       - 75%  0.13
       - max  6.70
+      
 - There are 9 different stations. 
+
       - The station with the most counts is USC00519281 with 2772 counts
       - The station with the least counts is USC00518838 with 511 counts.
+      
 - USC00519281 station data:
+
       - lowest temp: 54.0
       - highest temp: 85.0
       - average temp: 71.66
+      
 - USC0051281 has the highest number of temperature observations
       - The temperature of ~77 has highest frequency 
+      
 - The temperature summary statistics from June 1st, 2017 to June 30th, 2017 
+
       - min: 71
       - avg: 77.2
       - max: 83
@@ -62,7 +71,9 @@ This module has taught me the following:
 ***Please note the code/information can be found in the climate_analysis.ipynb
 
 - The key statistical data in June across all stations and years 
-      - Precipitation
+
+     - Precipitation
+      
           - count : 1574
           - mean : .136360
           - std : 0.335731
@@ -71,7 +82,9 @@ This module has taught me the following:
           - 50% : 0.02
           - 75% : 0.12
           - max : 4.43
-      - Temperature 
+          
+     - Temperature 
+      
           - count : 1700
           - mean : 74.944118
           - std : 3.257417
@@ -81,7 +94,9 @@ This module has taught me the following:
           - 75% : 77.0
           - max : 85.0
 - The key statistical data in December across all stations and years
-      - Precipitation
+
+     - Precipitation
+      
           - count : 1405
           - mean : 0.216819
           - std : 0.541399
@@ -90,7 +105,9 @@ This module has taught me the following:
           - 50% : 0.03
           - 75% : 0.15
           - max : 6.42
-      - Temperature
+          
+     - Temperature
+      
           - count : 1517
           - mean : 71.041529
           - std : 3.745920
